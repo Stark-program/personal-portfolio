@@ -23,7 +23,6 @@ const Home: NextPage = () => {
           <Link href="https://github.com/Stark-program">
             <InfoCard
               topic={"My Github"}
-              githubUrl={"https://github.com/Stark-program"}
               about={"Click here to visit my github profile."}
             />
           </Link>
