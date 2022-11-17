@@ -7,6 +7,8 @@ const ProjectCard = (props: Props) => {
     <>
       <a
         href={url}
+        target="_blank"
+        rel="noopenner noreferrer"
         className="flex flex-col my-2 mx-2 items-center bg-white rounded-lg border shadow-md md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-[#666666] dark:hover:bg-gray-700"
       >
         {image ? (
