@@ -10,14 +10,14 @@ const Projects = () => {
       url: "https://www.discordwiki.app/",
     },
     dashboard: {
-      title: "The dashbord of many things",
+      title: "The Dashbord Of Many Things",
       description:
         "Check weather status for the day, look up some movie information, checkout your favorite books, and laugh at a good joke!",
       image: "https://i.imgur.com/IpHpWpn.png",
       url: "https://dashboard-of-many-things.web.app/",
     },
     shopify: {
-      title: "Shopify intern challenge",
+      title: "Shopify Intern Challenge",
       description:
         "An assesement project for an internship application to Shopify where I utlizied OpenAI to generate responses based on user input.",
       image: "",
@@ -26,7 +26,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#999999]  ">
+    <div className="min-h-screen bg-[#999999]">
       <div className="flex flex-col mx-2 pt-4 md:grid md:grid-cols-3 justify-items-center">
         <ProjectCard
           title={websiteData.discordWiki.title}

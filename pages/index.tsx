@@ -12,10 +12,10 @@ const Home: NextPage = () => {
 
       <main className="flex w-full h-full flex-col md:flex-row md:space-x-96 items-center justify-center px-20 text-center">
         <div>
-          <h1 className="text-[80px] md:text-[130px] font-Baskerville">
+          <h1 className="text-[80px] md:text-[130px] font-Calistoga">
             Chad Stark
           </h1>
-          <h4 className="text-[30px] md:text-[40px] font-Baskerville">
+          <h4 className="text-[30px] md:text-[40px] font-Calistoga">
             Fullstack Developer
           </h4>
         </div>

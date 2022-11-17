@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -11,6 +13,9 @@ module.exports = {
         Baskerville: ["Libre Baskerville", "serif"],
         WorkSans: ["Work Sans", "sans-serif"],
         Montserrat: ["Montserrat", "sans-serif"],
+        Calistoga: ["Calistoga", "sans-serif"],
+        Candal: ["Candal", "sans-serif"],
+        Outfit: ["Outfit", "sans-serif"],
       },
     },
   },
