@@ -41,8 +41,8 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className="flex w-full mt-auto items-center justify-center border-t">
-        <p>
+      <footer className="flex flex-row w-full mt-auto items-center justify-center border-t">
+        <p className="w-full text-center">
           Questions? Contact me at:{" "}
           <span className="font-bold underline ml-1 ">
             chadrenstark@gmail.com
