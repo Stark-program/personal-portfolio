@@ -5,17 +5,17 @@ import InfoCard from "../components/Infocard";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen bg-[#999999] flex-col items-center justify-center">
+    <div className="flex min-h-screen bg-[#999999] relative flex-col items-center justify-center">
       <Head>
         <title>Stark Portfolio</title>
       </Head>
 
-      <main className="flex w-full h-full flex-col md:flex-row md:space-x-96 items-center justify-center px-20 text-center">
+      <main className="flex w-full h-full pb-12 items-center justify-center px-20 text-center flex-col  md:pb-4 lg:flex-row lg:space-x-96 ">
         <div>
-          <h1 className="text-[80px] md:text-[130px] font-Calistoga">
+          <h1 className="text-[80px] font-Calistoga md:text-[130px] ">
             Chad Stark
           </h1>
-          <h4 className="text-[30px] md:text-[40px] font-Calistoga">
+          <h4 className="text-[30px] font-Calistoga md:text-[40px] ">
             Fullstack Developer
           </h4>
         </div>
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className="flex flex-row w-full mt-auto items-center justify-center border-t">
+      <footer className="flex flex-row w-full absolute bottom-0 items-center justify-center border-t">
         <p className="w-full text-center">
           Questions? Contact me at:{" "}
           <span className="font-bold underline ml-1 ">
