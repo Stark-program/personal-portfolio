@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import Head from "next/head";
 import InfoCard from "../components/cards/Infocard";
-import Name from "../components/framer-motion/name";
-import Title from "../components/framer-motion/title";
+import Name from "../components/framer-motion/Name";
+import Title from "../components/framer-motion/Title";
 
 const Home: NextPage = () => {
   return (
