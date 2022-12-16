@@ -10,8 +10,8 @@ const Home: NextPage = () => {
     <div className="flex min-h-screen bg-[#999999] relative flex-col items-center justify-center">
       <Head>
         <title>Stark Portfolio</title>
+        <link rel="icon" href="/icon-s.png" />
       </Head>
-
       <main className="flex w-full h-full pb-12 items-center justify-center px-20 text-center flex-col  md:pb-4 lg:flex-row lg:space-x-96 ">
         <div>
           <Name />
