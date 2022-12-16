@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
 import Link from "next/link";
 import Head from "next/head";
-import InfoCard from "../components/Infocard";
+import InfoCard from "../components/cards/Infocard";
+import Name from "../components/framer-motion/name";
+import Title from "../components/framer-motion/title";
 
 const Home: NextPage = () => {
   return (
@@ -12,12 +14,8 @@ const Home: NextPage = () => {
 
       <main className="flex w-full h-full pb-12 items-center justify-center px-20 text-center flex-col  md:pb-4 lg:flex-row lg:space-x-96 ">
         <div>
-          <h1 className="text-[80px] font-Calistoga md:text-[130px] ">
-            Chad Stark
-          </h1>
-          <h4 className="text-[30px] font-Calistoga md:text-[40px] ">
-            Fullstack Developer
-          </h4>
+          <Name />
+          <Title />
         </div>
         <div className="flex flex-col space-y-10 my-4">
           <Link href="https://github.com/Stark-program">
