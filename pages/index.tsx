@@ -14,8 +14,8 @@ const Home: NextPage = () => {
       </Head>
       <main className="flex w-full h-full pb-12 items-center justify-center px-20 text-center flex-col  md:pb-4 lg:flex-row lg:space-x-96 ">
         <div>
-          <Name />
-          <Title />
+          <Name name="Chad Stark" />
+          <Title title="Fullstack Developer" />
         </div>
         <div className="flex flex-col space-y-10 my-4">
           <Link href="https://github.com/Stark-program">
