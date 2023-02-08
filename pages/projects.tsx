@@ -19,7 +19,7 @@ const Projects = () => {
     shopify: {
       title: "Shopify Intern Challenge",
       description:
-        "An assesement project for an internship application to Shopify where I utlizied OpenAI to generate responses based on user input.",
+        "An assessment project for an internship application to Shopify where I utilized OpenAI to generate responses based on user input.",
       image: "",
       url: "https://stark-shopify-internchallenge.vercel.app/",
     },
