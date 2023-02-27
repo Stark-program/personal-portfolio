@@ -23,6 +23,13 @@ const Projects = () => {
       image: "",
       url: "https://stark-shopify-internchallenge.vercel.app/",
     },
+    {
+      title: "StarkByte Applications",
+      description:
+        "StarkByte Applications provides affordable and reliable solutions for small business needs, including one-page websites, full-stack websites, and custom applications. This is a company I started and am continuing to try and grow. ",
+      image: "https://i.imgur.com/wDohdfR.png",
+      url: "https://www.starkbyteapps.com/",
+    },
   ];
 
   return (
